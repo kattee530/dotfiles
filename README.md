@@ -16,5 +16,6 @@ remote_uri="<GITHUB_URI>"
 git init
 git commit --allow-empty -m "init: Initial commit"
 git remote add origin $remote_uri
+gh auth login
 git push -u origin main
 ```
